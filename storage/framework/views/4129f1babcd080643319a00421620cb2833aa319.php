@@ -27,7 +27,7 @@
 						<th>Direccion</th>
 					
 						<th>Opciones</th>
-					
+					 
 					</thead>
 					<?php foreach($proveedores as $pro): ?>
 					<tr>

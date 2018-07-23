@@ -11,14 +11,14 @@
 
        <div class="modal-body">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-
+ 
 
       <?php echo e(Form::open(array('url' => 'adjuntarcategoria'))); ?>
 
          
               <div class="form-group">
 
-
+ 
                   <input type="hidden" class="form-control" name="txtid" id="txtid">
 
 

@@ -3,7 +3,7 @@
 <?php echo $__env->make('registrosproveedor.modal', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
  
 
-	<div class="row">
+	<div class="row"> 
 		<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
 			<h3>Listado de Administradores <a href="createadmin"><button class="btn btn-success">Nuevo</button></a></h3>
 			<?php echo $__env->make('registrosproveedor.search', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

@@ -1,4 +1,4 @@
-<?php echo Form::open(array('url'=>'registrosproveedor','method'=>'GET','autocomplete'=>'off','role'=>'search')); ?>
+<?php echo Form::open(array('url'=>'convocatoriasactivas','method'=>'GET','autocomplete'=>'off','role'=>'search')); ?>
 
 <div class="form-group">
 	<div class="input-group">
@@ -9,4 +9,4 @@
 	</div>
 </div>
 
-<?php echo e(Form::close()); ?>
+<?php echo e(Form::close()); ?> 

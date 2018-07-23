@@ -135,7 +135,7 @@
                           <h3><?php echo e($res2->cant); ?></h3>
                         <?php endforeach; ?>
                       <p style="font-size: 18px;">Activas-Parciales</p>
-                    </div>
+                    </div> 
 
                     <div class="icon">
                       <i class="fa fa-file-text-o" aria-hidden="true"></i>
@@ -174,7 +174,7 @@
                   <?php echo $__env->make('alerts.success', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
                   <?php echo $__env->make('alerts.errors', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
-                <?php  $sql = DB::select('select nombre, idpublic, titulo, descripcion, DATE_FORMAT(fecha,"%d-%m-%Y") AS fecha, estado FROM categoria, convocatoria WHERE categoria.idcat=convocatoria.idcat and convocatoria.estado<>"inactiva" Order by fecha desc LIMIT 7'); ?>
+                <?php  $sql = DB::select('select nombre, idpublic, titulo, descripcion,fecha, estado FROM categoria, convocatoria WHERE categoria.idcat=convocatoria.idcat and convocatoria.estado<>"inactiva" ORDER BY fecha DESC LIMIT 7'); ?>
 
                   <div>
                     <h3> Últimas Convocatorias </h3> 
